@@ -42,6 +42,10 @@ nav:
       - 总览: practical-tools/index.md
       - Git语法(未完成): practical-tools/git.md
       - Markdown语法: practical-tools/markdown.md
+      - 软件:
+          - "Clonezilla*": practical-tools/software/clonezilla.md
+          - "GParted*": practical-tools/software/gparted.md
+          - "Rufus*": practical-tools/software/rufus.md
   - 科研工具:
       - 总览: research-tools/index.md
       - Zotero: research-tools/zotero.md
@@ -49,17 +53,13 @@ nav:
   - 学习资源:
       - 总览: learning-resources/index.md
       - 计算机科学基础:
-          - 分类总览: learning-resources/fundamentals-of-computer/index.md
           - (课程)CS50x: learning-resources/fundamentals-of-computer/CS50x.md
       - 机器学习:
-          - 分类总览: learning-resources/machine-learning/index.md
           - (书籍)西瓜书与南瓜书: learning-resources/machine-learning/machine-learning-watermelon-pumpkin.md
       - 深度学习:
-          - 分类总览: learning-resources/deep-learning/index.md
           - (书籍)深度学习入门（鱼书）: learning-resources/deep-learning/deep-learning-from-scratch.md
           - (书籍)动手学深度学习（书籍）: learning-resources/deep-learning/dive-into-deep-learning.md
           - (视频)动手学深度学习 v2（课程）: learning-resources/deep-learning/d2l-v2.md
           - (视频)PyTorch 入门课程（小土堆）: learning-resources/deep-learning/pytorch-xiaotudui.md
       - 计算机视觉:
-          - 分类总览: learning-resources/computer-vision/index.md
           - (书籍)OpenCV 计算机视觉开发实践: learning-resources/computer-vision/opencv-python-practice.md
