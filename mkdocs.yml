@@ -53,7 +53,6 @@ nav:
   - 大模型技术:
       - skill教程: llm_application/skill_application.md
   - 学习资源:
-      - 总览: learning-resources/index.md
       - 计算机科学基础:
           - (课程)CS50x: learning-resources/fundamentals-of-computer/CS50x.md
       - 机器学习:
