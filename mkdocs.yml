@@ -12,6 +12,7 @@ theme:
 
 markdown_extensions:
   - attr_list
+  - md_in_html
   - pymdownx.highlight:
       pygments_lang_class: true
   - pymdownx.superfences
@@ -39,7 +40,6 @@ extra_javascript:
 nav:
   - 知识库介绍: main_page.md
   - 实用工具:
-      - 总览: practical-tools/index.md
       - Git语法(未完成): practical-tools/git.md
       - Markdown语法: practical-tools/markdown.md
       - 软件:
@@ -50,6 +50,8 @@ nav:
       - 总览: research-tools/index.md
       - Zotero: research-tools/zotero.md
       - Obsidian: research-tools/obsidian.md
+  - 大模型技术:
+      - skill教程: llm_application/skill_application.md
   - 学习资源:
       - 总览: learning-resources/index.md
       - 计算机科学基础:
@@ -63,3 +65,4 @@ nav:
           - (视频)PyTorch 入门课程（小土堆）: learning-resources/deep-learning/pytorch-xiaotudui.md
       - 计算机视觉:
           - (书籍)OpenCV 计算机视觉开发实践: learning-resources/computer-vision/opencv-python-practice.md
+      - 更多学习资源: learning-resources/more-learning-resources.md
