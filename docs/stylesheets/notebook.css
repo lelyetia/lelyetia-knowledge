@@ -265,3 +265,16 @@
   .md-typeset .note-version-link { display: none; }
   .md-typeset div.highlight > .filename { position: static; margin: .5rem .9rem 0; }
 }
+
+/* 资源推荐表格：表格撑满宽度，名称/荣誉列不换行，长文本留给"个人看法"列 */
+.md-typeset .resource-table table:not([class]) {
+  display: table;
+  width: 100%;
+}
+.md-typeset .resource-table th,
+.md-typeset .resource-table td:nth-child(-n+3) {
+  white-space: nowrap;
+}
+.md-typeset .resource-table td:last-child {
+  min-width: 16em;
+}
